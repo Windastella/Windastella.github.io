@@ -269,6 +269,7 @@ a.pure-button-primary {
 	margin:auto;
 	position:relative;
 	display:none;
+	width:100%;
 	}
 
 /*
@@ -322,11 +323,6 @@ a.pure-button-primary {
 	.post-container {
 		width:100%;
 	}
-
-	/*Myslide image size*/
-	.mySlide {
-		width:125%;
-	}
 }
 
 /*
@@ -348,10 +344,5 @@ a.pure-button-primary {
 	/*Splash container height*/
 	.splash-container {
 		height: 88%;
-	}
-
-	/*Myslide image size*/
-	.mySlide {
-		width:100%;
 	}
 }
