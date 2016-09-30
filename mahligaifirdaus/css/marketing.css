@@ -265,9 +265,10 @@ a.pure-button-primary {
 	z-index:-1;
 }
 
-.mySlide {
+/*.mySlide {
 	width:100%;
-	}
+	display:none;
+	}*/
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
@@ -294,10 +295,10 @@ a.pure-button-primary {
             float: right;
         }
 
-    /* We increase the height of the splash-container */
+    /* We increase the height of the splash-container 
     .splash-container {
         height: 50%;
-    }
+    }*/
 
     /* We decrease the width of the .splash, since we have more width
     to work with */
@@ -320,7 +321,12 @@ a.pure-button-primary {
 	.post-container {
 		width:100%;
 	}
-	
+
+	/*Myslide image size*/
+	.mySlide {
+		width:200%;
+		display:block;
+	}
 }
 
 /*
@@ -342,5 +348,11 @@ a.pure-button-primary {
 	/*Splash container height*/
 	.splash-container {
 		height: 88%;
+	}
+
+	/*Myslide image size*/
+	.mySlide {
+		width:100%;
+		display:none;
 	}
 }
