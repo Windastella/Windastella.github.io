@@ -181,6 +181,7 @@ a.pure-button-primary {
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
+    top: 87%;
     width: 100%;
     min-height: 12%;
     z-index: 2;
@@ -319,12 +320,6 @@ a.pure-button-primary {
 	.post-container {
 		width:100%;
 	}
-
-	/*Content wrapper mobile position*/
-	.content-wrapper {
-		top: 50%;	
-	}
-}
 	
 }
 
@@ -347,10 +342,5 @@ a.pure-button-primary {
 	/*Splash container height*/
 	.splash-container {
 		height: 88%;
-	}
-
-	/*Content wrapper position*/
-	.content-wrapper {
-		top: 87%;	
 	}
 }
