@@ -133,7 +133,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #1f8dd6;
+    background: white;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -266,6 +266,7 @@ a.pure-button-primary {
 }
 
 .mySlide {
+	margin:auto;
 	position:relative;
 	display:none;
 	}
@@ -324,9 +325,7 @@ a.pure-button-primary {
 
 	/*Myslide image size*/
 	.mySlide {
-		margin-left:-25%;
-		margin-top:-25%;
-		width:150%;
+		width:125%;
 	}
 }
 
@@ -353,8 +352,6 @@ a.pure-button-primary {
 
 	/*Myslide image size*/
 	.mySlide {
-		margin-left:0%;
-		margin-top:0%;
 		width:100%;
 	}
 }
